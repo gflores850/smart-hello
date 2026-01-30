@@ -17,10 +17,10 @@
                    FontSize="18" />
             <Entry x:Name="LastName"
                    FontSize="18"
-                   Placeholder="LastName" />
+                   Placeholder="User_LastName" />
             <Button Text="Summit"
                     FontSize="18"
-                    Clicked="When_do_Click_on_Summit"
+                    Clicked="When_do_Clicked"
                     HorizontalOptions="Center" />
 
         </VerticalStackLayout>
