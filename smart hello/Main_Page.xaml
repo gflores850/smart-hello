@@ -14,6 +14,7 @@
                    FontSize="32"
                    HorizontalOptions="Center" />
             <Entry x:Name="Name"
+                   Placeholder="User_Name"
                    FontSize="18" />
             <Entry x:Name="LastName"
                    FontSize="18"

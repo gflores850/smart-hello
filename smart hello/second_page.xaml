@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="smart_hello.second_page"
+             Title="Welcome"
+             BackgroundColor="Gray">
+    <VerticalStackLayout>
+        <Label 
+            Text="Navigation sudccess!"
+            FontSize="24"
+            TextColor="White"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Button
+            Text="Go Back"
+            Clicked="OnReturnButtonClicked"
+            HeightRequest="50"
+            WidthRequest="200"
+            BackgroundColor="DarkSlateGray"
+            TextColor="White" />
+    </VerticalStackLayout>
+</ContentPage>
